@@ -3,7 +3,7 @@
 ## Overview
 This project provides a **customer segmentation analysis** for a supermarket client using clustering techniques. The goal is to group customers based on their purchasing behavior and recommend targeted marketing strategies for each segment to enhance sales and engagement.
 
-The supermarket provided anonymized customer purchase data across various product categories. Using both **hierarchical clustering** and **K-Means clustering**, we identified key customer groups and provided tailored business insights.
+The supermarket provided anonymized customer purchase data across various product categories. Using **hierarchical clustering**, **K-Means clustering** and **Principle Component Analysis (PCA)**, we identified key customer groups and provided tailored business insights.
 
 ---
 

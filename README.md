@@ -48,17 +48,6 @@ Only the six product-related variables were used for segmentation purposes.
 
 ---
 
-## File Structure
-''' 
-customer-segmentation-analysis/
-│
-├── customer_data.csv           # Raw dataset
-├── segmentation_analysis.ipynb # Python notebook for full analysis
-└── README.md                   # Project overview and documentation
-'''
-
----
-
 ## Cluster Profiles (K-Means, 3 Clusters)
 
 | Cluster | Segment Name               | Characteristics                                                                 |

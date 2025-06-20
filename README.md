@@ -48,24 +48,33 @@ Only the six product-related variables were used for segmentation purposes.
 
 ---
 
-## 📁 File Structure
+## File Structure
 <pre> 
 customer-segmentation-analysis/
 │
-├── customer_data.csv # Raw dataset
+├── customer_data.csv           # Raw dataset
 ├── segmentation_analysis.ipynb # Python notebook for full analysis
-└── README.md # Project overview and documentation
-
+└── README.md                   # Project overview and documentation
 <pre> 
 
 ---
 
-## 🧬 Cluster Profiles (K-Means, 3 Clusters)
+## Cluster Profiles (K-Means, 3 Clusters)
 
 | Cluster | Segment Name               | Characteristics                                                                 |
 |---------|----------------------------|----------------------------------------------------------------------------------|
 | 0       | Not-so-Profitable Customers| Lowest spending across all product categories                                   |
 | 1       | Most Valuable Customers    | Highest spending across all categories **except wine**                          |
 | 2       | Wine Lovers                | Highest spending on **wine**, moderate elsewhere                                |
+
+---
+
+## Business Recommendations
+
+| Segment                     | Recommendation                                                                 |
+|-----------------------------|----------------------------------------------------------------------------------|
+| Not-so-Profitable Customers| Offer **threshold-based coupons** to incentivize higher spending.               |
+| Most Valuable Customers    | Introduce **wine-based recipe content** (e.g., wine + fish meals) to boost wine sales. |
+| Wine Lovers                | Cross-sell with **wine-pairing products** like cheese, meats, or recipe bundles. |
 
 ---
